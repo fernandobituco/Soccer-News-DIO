@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Soccer News DIO</string>
+    <string name="title_news">News</string>
+    <string name="title_favourites">Favourites</string>
+</resources>
