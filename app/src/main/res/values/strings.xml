@@ -2,4 +2,5 @@
     <string name="app_name">Soccer News DIO</string>
     <string name="title_news">News</string>
     <string name="title_favourites">Favourites</string>
+    <string name="open_link">OPEN LINK</string>
 </resources>
