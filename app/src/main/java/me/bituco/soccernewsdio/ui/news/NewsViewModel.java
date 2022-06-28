@@ -7,7 +7,6 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import me.bituco.soccernewsdio.data.remote.SoccerNewsApi;
@@ -29,6 +28,7 @@ public class NewsViewModel extends ViewModel {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         api = retrofit.create(SoccerNewsApi.class);
+
         this.findNews();
     }
 
